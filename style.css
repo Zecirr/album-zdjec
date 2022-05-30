@@ -1,0 +1,56 @@
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	clear: both;
+}
+.img-box{
+	margin: 10px;
+	padding: 5px;
+	background-color: gray;
+	border-radius: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 3vh;
+}
+.img-box:hover{
+	transform: scale(120%);
+	transition: all 1s;
+}
+header{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: gray;
+	width: 20vw;
+	color: blue;
+	margin: auto;
+	padding: 0.7em;
+	border-radius: 0.7em;
+	min-width: 200px;
+}
+.blue{
+	color: inherit;
+	font-family: initial;
+}
+.header{
+	margin: auto;
+	height: auto;
+}
+.small{
+
+	font-size: 15px;
+
+}
+.big{
+	font-size: 25px;
+}
+ul{
+	font-size: 0.8em;
+}
+ul ul{
+	font-size: 1rem;
+}
+:root{
+	font-size: 16px;
+}
